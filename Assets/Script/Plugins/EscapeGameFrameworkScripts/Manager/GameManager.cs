@@ -26,10 +26,6 @@ public class GameManager : SingletonMonoBehaviour<GameManager> {
 	GameFlags mGameFlags = new GameFlags();
 	GameState mGameState = GameState.NONE;
 	/// <summary>
-	/// 文章マスターデータ:Jsonからデシリアライズして生成
-	/// </summary>
-	List<SentenceModel> mMasterSentenceData = new List<SentenceModel>();
-	/// <summary>
 	/// アイテムモデルのマスターデータ:Jsonからデシリアライズして生成
 	/// </summary>
 	List<ItemModel> mMasterItemData = new List<ItemModel> ();
