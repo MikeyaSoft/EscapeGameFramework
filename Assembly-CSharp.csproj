@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F82286D9-93D4-92FA-4FE7-FF0C885CE79C}</ProjectGuid>
+    <ProjectGuid>{A53AD84E-735C-4FD6-882E-9E041A9B27CB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,13 +46,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\EventTrigger\GameEvent.cs" />
+     <Compile Include="Assets\Script\EventTrigger\ItemEvent.cs" />
      <Compile Include="Assets\Script\GameDef.cs" />
-     <Compile Include="Assets\Script\GameEvent.cs" />
-     <Compile Include="Assets\Script\GameManager.cs" />
      <Compile Include="Assets\Script\GameSaveData.cs" />
-     <Compile Include="Assets\Script\GameScreenManager.cs" />
-     <Compile Include="Assets\Script\ItemEvent.cs" />
      <Compile Include="Assets\Script\JsonHelper\MapCellMapJsonHelper.cs" />
+     <Compile Include="Assets\Script\Manager\GameManager.cs" />
+     <Compile Include="Assets\Script\Manager\GameScreenManager.cs" />
+     <Compile Include="Assets\Script\Manager\SaveDataManager.cs" />
+     <Compile Include="Assets\Script\Manager\SoundManager.cs" />
+     <Compile Include="Assets\Script\Manager\WindwManager.cs" />
      <Compile Include="Assets\Script\Model\AdvCellModel.cs" />
      <Compile Include="Assets\Script\Model\ItemModel.cs" />
      <Compile Include="Assets\Script\Model\MapCellModel.cs" />
@@ -348,7 +351,6 @@
      <Compile Include="Assets\Script\Presenter\MapPresenter.cs" />
      <Compile Include="Assets\Script\Presenter\PlayerMarkerPresenter.cs" />
      <Compile Include="Assets\Script\Presenter\PlayerPresenter.cs" />
-     <Compile Include="Assets\Script\SaveDataManager.cs" />
      <Compile Include="Assets\Script\SceneController\BaseSceneController.cs" />
      <Compile Include="Assets\Script\SceneController\GameScreens\Alice2_1_2.cs" />
      <Compile Include="Assets\Script\SceneController\GameScreens\Alice2_2_1.cs" />
@@ -360,13 +362,8 @@
      <Compile Include="Assets\Script\SceneController\SampleGame\Alice1.cs" />
      <Compile Include="Assets\Script\SceneController\SampleGame\Alice2.cs" />
      <Compile Include="Assets\Script\SceneController\SampleGame\Alice3.cs" />
-     <Compile Include="Assets\Script\SceneController\SampleGameSceneController.cs" />
-     <Compile Include="Assets\Script\SceneManager.cs" />
-     <Compile Include="Assets\Script\SoundManager.cs" />
-     <Compile Include="Assets\Script\StoryWindw.cs" />
-     <Compile Include="Assets\Script\Stub\StubData.cs" />
-     <Compile Include="Assets\Script\UIDropObject.cs" />
-     <Compile Include="Assets\Script\WindwManager.cs" />
+     <Compile Include="Assets\Script\UI\StoryWindw.cs" />
+     <Compile Include="Assets\Script\UI\UIDropObject.cs" />
      <None Include="Assets\Script\Plugins\Demigiant\DOTween\readme.txt" />
      <None Include="Assets\Script\Plugins\Demigiant\DOTween\DOTween46.xml" />
      <None Include="Assets\Resources\GameMusicPack_SUITE\Readme_ja.txt" />
@@ -395,16 +392,16 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="DOTween">
- <HintPath>/Users/user/Desktop/情強タスクとスケジュール/1ヶ月1ゲーム企画/weebly脱出ゲーム/WeeblyEscape/Assets/Script/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+ <HintPath>/Users/user/EscapeGameFramework/EscapeGameFramework/Assets/Script/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="DOTween43">
- <HintPath>/Users/user/Desktop/情強タスクとスケジュール/1ヶ月1ゲーム企画/weebly脱出ゲーム/WeeblyEscape/Assets/Script/Plugins/Demigiant/DOTween/DOTween43.dll</HintPath>
+ <HintPath>/Users/user/EscapeGameFramework/EscapeGameFramework/Assets/Script/Plugins/Demigiant/DOTween/DOTween43.dll</HintPath>
  </Reference>
  <Reference Include="DOTween46">
- <HintPath>/Users/user/Desktop/情強タスクとスケジュール/1ヶ月1ゲーム企画/weebly脱出ゲーム/WeeblyEscape/Assets/Script/Plugins/Demigiant/DOTween/DOTween46.dll</HintPath>
+ <HintPath>/Users/user/EscapeGameFramework/EscapeGameFramework/Assets/Script/Plugins/Demigiant/DOTween/DOTween46.dll</HintPath>
  </Reference>
  <Reference Include="DOTween50">
- <HintPath>/Users/user/Desktop/情強タスクとスケジュール/1ヶ月1ゲーム企画/weebly脱出ゲーム/WeeblyEscape/Assets/Script/Plugins/Demigiant/DOTween/DOTween50.dll</HintPath>
+ <HintPath>/Users/user/EscapeGameFramework/EscapeGameFramework/Assets/Script/Plugins/Demigiant/DOTween/DOTween50.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

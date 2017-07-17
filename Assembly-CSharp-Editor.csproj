@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2C43D693-C130-62B0-2D08-0FA7B80BA105}</ProjectGuid>
+    <ProjectGuid>{3AB312DE-F571-EE79-462D-1289385607E0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -105,19 +105,19 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="DOTween">
- <HintPath>/Users/user/Desktop/情強タスクとスケジュール/1ヶ月1ゲーム企画/weebly脱出ゲーム/WeeblyEscape/Assets/Script/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+ <HintPath>/Users/user/EscapeGameFramework/EscapeGameFramework/Assets/Script/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="DOTween43">
- <HintPath>/Users/user/Desktop/情強タスクとスケジュール/1ヶ月1ゲーム企画/weebly脱出ゲーム/WeeblyEscape/Assets/Script/Plugins/Demigiant/DOTween/DOTween43.dll</HintPath>
+ <HintPath>/Users/user/EscapeGameFramework/EscapeGameFramework/Assets/Script/Plugins/Demigiant/DOTween/DOTween43.dll</HintPath>
  </Reference>
  <Reference Include="DOTween46">
- <HintPath>/Users/user/Desktop/情強タスクとスケジュール/1ヶ月1ゲーム企画/weebly脱出ゲーム/WeeblyEscape/Assets/Script/Plugins/Demigiant/DOTween/DOTween46.dll</HintPath>
+ <HintPath>/Users/user/EscapeGameFramework/EscapeGameFramework/Assets/Script/Plugins/Demigiant/DOTween/DOTween46.dll</HintPath>
  </Reference>
  <Reference Include="DOTween50">
- <HintPath>/Users/user/Desktop/情強タスクとスケジュール/1ヶ月1ゲーム企画/weebly脱出ゲーム/WeeblyEscape/Assets/Script/Plugins/Demigiant/DOTween/DOTween50.dll</HintPath>
+ <HintPath>/Users/user/EscapeGameFramework/EscapeGameFramework/Assets/Script/Plugins/Demigiant/DOTween/DOTween50.dll</HintPath>
  </Reference>
  <Reference Include="DOTweenEditor">
- <HintPath>/Users/user/Desktop/情強タスクとスケジュール/1ヶ月1ゲーム企画/weebly脱出ゲーム/WeeblyEscape/Assets/Script/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ <HintPath>/Users/user/EscapeGameFramework/EscapeGameFramework/Assets/Script/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -140,7 +140,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{F82286D9-93D4-92FA-4FE7-FF0C885CE79C}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{A53AD84E-735C-4FD6-882E-9E041A9B27CB}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
