@@ -354,6 +354,7 @@
      <Compile Include="Assets\Script\Plugins\uGuiNguiLikeTween\Tween\TweenText.cs" />
      <Compile Include="Assets\Script\Plugins\uGuiNguiLikeTween\Tween\Tweener.cs" />
      <Compile Include="Assets\Script\Plugins\uGuiNguiLikeTween\Tween\uEnum.cs" />
+     <Compile Include="Assets\Script\SceneController\Event\GetItemEvent.cs" />
      <Compile Include="Assets\Script\SceneController\GameScreens\Alice2_1_2.cs" />
      <Compile Include="Assets\Script\SceneController\GameScreens\Alice2_2_1.cs" />
      <Compile Include="Assets\Script\SceneController\GameScreens\Alice_1_1.cs" />
@@ -363,6 +364,7 @@
      <Compile Include="Assets\Script\SceneController\SampleGame\Alice1.cs" />
      <Compile Include="Assets\Script\SceneController\SampleGame\Alice2.cs" />
      <Compile Include="Assets\Script\SceneController\SampleGame\Alice3.cs" />
+     <Compile Include="Assets\Script\SceneController\SampleGame\Alice4.cs" />
      <None Include="Assets\Script\Plugins\Demigiant\DOTween\readme.txt" />
      <None Include="Assets\Script\Plugins\Demigiant\DOTween\DOTween46.xml" />
      <None Include="Assets\Resources\GameMusicPack_SUITE\Readme_ja.txt" />
